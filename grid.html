@@ -27,23 +27,23 @@
       const rootElement = document.getElementById("root");
       const box = React.createElement(
          "div",
-         { className: "griditem",style:{border:"2px solid black",padding:"25px",backgroundColor:"#FFA500"} },
+         { className: "grid",style:{border:"2px solid black",padding:"25px",backgroundColor:"#FFA500"} },
          );
       const box1 = React.createElement(
          "div",
-         { className: "griditem",style:{border:"2px solid black",padding:"25px",backgroundColor:"pink"} },
+         { className: "grid",style:{border:"2px solid black",padding:"25px",backgroundColor:"pink"} },
          );
       const box2 = React.createElement(
          "div",
-         { className: "griditem",style:{border:"2px solid black",padding:"25px",backgroundColor:"lightblue"} },
+         { className: "grid",style:{border:"2px solid black",padding:"25px",backgroundColor:"lightblue"} },
          );
       const box3 = React.createElement(
          "div",
-         { className: "griditem",style:{border:"2px solid black",padding:"25px",backgroundColor:"lightgreen"} },
+         { className: "grid",style:{border:"2px solid black",padding:"25px",backgroundColor:"lightgreen"} },
          );
        const divElement = React.createElement(
          "div",
-         { className: "gridcontainer",style:{ display:"grid",gridTemplateColumns:"auto auto auto auto",gridColumnGap:"10px",gridRowGap:"10px",width:"30px",padding:"10px"}},
+         { className: "container",style:{ display:"grid",gridTemplateColumns:"auto auto auto auto",gridColumnGap:"10px",gridRowGap:"10px",width:"30px",padding:"10px"}},
          box,box1,box2,box3,box,box1,box2,box3,box,box1,box2,box3,
          );
        ReactDOM.render(divElement,document.getElementById("root"));
