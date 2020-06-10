@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React Session</title>
+    <meta charset="UTF-8" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.development.js"
+    ></script>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+    ></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      const rootElement = document.getElementById("root");
+      const element=(<div style={{backgroundColor:"grey",height:"600px",marginLeft:"100px",marginRight:"90px"}}>
+      <div style={{backgroundColor:"coral",height:"260px",width:"700px"}}>
+         <ul>
+	    <li style={{display:"inline",color:"white",padding:"20px"}}>PIXEL GEEK</li>
+	    <li style={{display:"inline",color:"white",padding:"20px"}}>VIDEOS</li>
+	    <li style={{display:"inline",color:"white",padding:"20px"}}>RAMBLES</li>
+	    <li style={{display:"inline",color:"white",padding:"20px"}}>PROJECTS</li>
+	    <li style={{display:"inline",color:"white",padding:"20px"}}>THE OVERFLOW</li>
+	</ul>
+<div style={{backgroundColor:"white",height:"500px",width:"1000px",marginLeft:"60px",Top:"10px"}}>
+<h1 style={{color:"corol",marginLeft:"20px",marginTop:"40px",padding:"20px"}}>Rejection is hard</h1>
+ <p style={{color:"grey",marginLeft:"40px"}}>feb 21,2004</p>
+ <h5 style={{color:"black",marginLeft:"40px",paddingRight:"80px"}}> Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</h5>   
+ <h5 style={{color:"black",marginLeft:"40px",paddingRight:"80px"}}>Rejection also happen when:</h5>
+ <ul>
+   <li style={{color:"black",marginLeft:"60px",paddingRight:"80px"}}>A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic.</li>
+   <li style={{color:"black",marginLeft:"60px",paddingRight:"80px"}}> We organise what we write into sentences and paragraphs. A paragraph begins on a new line within the text and there is often a blank line</li>
+   <li style={{color:"black",marginLeft:"60px",paddingRight:"80px"}}> the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences</li>
+   <li style={{color:"black",marginLeft:"60px",paddingRight:"80px"}}> We organise what we write into sentences and paragraphs. A paragraph begins on a new line within the text and there is often a blank line</li>
+   </ul>
+<h5 style={{color:"black",marginLeft:"40px",paddingRight:"80px"}}> Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.What do paragraphs do? Imagine reading this page without paragraph breaks. Paragraphs create order and logic by helping your reader recognize </h5>
+</div>
+      </div>
+      </div>);
+ ReactDOM.render(element,rootElement);
+
+      console.log(React);
+      console.log(ReactDOM);
+    </script>
+  </body>
+</html>
